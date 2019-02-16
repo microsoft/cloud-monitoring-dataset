@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "ingress-05.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This dataset measures data ingress rate into a cloud service.  There is variation expected across the time series in this dataset over time.  There are prominent dips in the ingress rates across the time series that indicate service disruption."
+  ]
+}
