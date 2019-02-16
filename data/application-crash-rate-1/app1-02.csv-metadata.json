@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "app1-02.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This dataset marks unusual increases in application crash rates relative to baseline.  Crash rates are normalized to application launch counts."
+  ]
+}

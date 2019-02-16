@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "purchase-01.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This is an example of a dataset with no anomalies.  While there are events that look like spikes, it is normal activity because the underlying data has low volume."
+  ]
+}

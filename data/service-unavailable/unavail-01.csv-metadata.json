@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "unavail-01.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This dataset shows 'Service Unavailable' results from a client application calling a cloud service.  This dataset is provided as an example where isolated events are not considered sufficient to trigger an alarm to domain experts."
+  ]
+}
