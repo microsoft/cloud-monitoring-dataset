@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "purchase-02.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This dataset shows count of in-app purchases in a specific market.  Increases in purchases are interesting for business reasons and potentially to detect fraud.  Decreases can indicate issues in the purchase flow."
+  ]
+}

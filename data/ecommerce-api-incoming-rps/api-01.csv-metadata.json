@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "api-01.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "This dataset shows incoming request rates to an ecommerce API.  There is a strong interest in tracking elevated request rates in this API."
+  ]
+}

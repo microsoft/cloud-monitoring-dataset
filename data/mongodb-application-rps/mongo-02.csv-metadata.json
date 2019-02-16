@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    { "schema": "http://schema.org" }
+  ],
+  "@type": "Dataset",
+  "url": "mongo-02.csv",
+  "schema:name": "",
+  "schema:description": "",
+  "schema:publisher": {
+      "@type": "Organization",
+      "schema:name": "Microsoft"
+  },
+  "notes": [
+    "The files in this dataset show query rates to a Mongo DB cluster broken out by different application scenarios.  3 of the time series contain no anomalies as intermittent spikes are normal in this domain."
+  ]
+}
