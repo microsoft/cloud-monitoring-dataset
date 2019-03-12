@@ -4,7 +4,7 @@ The Cloud Monitoring Dataset is a set of real-world time series from Microsoft l
 
 ## Data Domains
 
-The Cloud Monitoring Datset consists of 67 real-world time series in 8 domains spanning online services to Windows PCs.  All data was collected from production Microsoft service telemetry.
+The Cloud Monitoring Dataset consists of 67 real-world time series in 8 domains spanning online services to Windows PCs.  All data was collected from production Microsoft service telemetry.
 
 The domains for the datasets are:
 
