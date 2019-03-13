@@ -1,18 +1,18 @@
 # Cloud Monitoring Dataset
 
-The Cloud Monitoring Dataset is a set of real-world time series from Microsoft labeled with anomalies.  The dataset is used for development of anomaly detection algorithms in Microsoft's cloud monitoring tools.
+The Cloud Monitoring Dataset is a set of real-world time series derived from Microsoft service and client telemetry signals. The data set contains anomalous patterns manually labeled by experts. The dataset is used for development, evaluation and improvement of anomaly detection algorithms in Microsoft's cloud monitoring tools.
 
 ## Data Domains
 
-The Cloud Monitoring Dataset consists of 67 real-world time series in 8 domains spanning online services to Windows PCs.  All data was collected from production Microsoft service telemetry.
+The Cloud Monitoring Dataset consists of 67 real-world time series in 8 domains ranging from online services to Windows PCs.  All data was collected from production Microsoft service telemetry.
 
 The domains for the datasets are:
 
 * Store purchase counts by client type
-* MongoDB query rates by individual machines in cluster
-* MongoDB query rates by application context
-* Incoming API query rate
-* Outgoing API latency
+* Database query rates by individual machines in cluster
+* Database query rates by application context
+* Incoming service API query rate
+* Outgoing service API latency
 * Windows application crash rate by OS version and country
 * Web app query rates to service API
 
